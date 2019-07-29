@@ -1,68 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# _Philip Eskins' Portfolio_
 
-## Available Scripts
+#### _Site to show off my skills and pojects_
 
-In the project directory, you can run:
+#### By _**Philip Eskins**_
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+_This is a porfolio website to showcase my projects, skills, and information about me._
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Current Features
+* Still in planning stage
 
-### `npm test`
+## Future Features
+* Chatbot
+* Using Meetup API
+* Using Udemy API
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Process
 
-### `npm run build`
+#### 7/29/2019
+_Started working on design of the website using Figma. Used create-react-app to generate a framework for the site._
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Setup/Installation Requirements
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* _Download repository from https://github.com/PhilipEskins/pe-portfolio/_
+* _Type npm install from the command line interface_
+* _Type npm run start from the command line interface_
+* _If you'd like to alter or see the code for the project, after downloading open the project up in your favorite code editor._
 
-### `npm run eject`
+## Known Bugs
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+_Still in design phase_
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Support and contact details
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+_If you have problems or would like to comment about something feel free to contact me at philipeskins@gmail.com_
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Technologies Used
 
-## Learn More
+_This website uses HTML, JavaScript, Webpack, and React._
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+*MIT*
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Copyright (c) 2019 **_Philip Eskins_**
