@@ -1,3 +1,24 @@
+#navbar {
+  background-color: black;
+  max-width: 25vw;
+  height: 100vh;
+  margin: 0;
+  color: white;
+  display: grid;
+  justify-content: center;
+}
+
+#mainPhoto {
+  width: 15vw;
+  border-radius: 50%;
+}
+
+#mainPhoto:hover {
+  border: 5px solid green;
+}
+
 h1 {
   color: pink;
+  margin: 0;
+  text-align: center;
 }
