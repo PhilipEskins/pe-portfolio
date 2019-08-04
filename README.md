@@ -13,8 +13,8 @@ _This is a porfolio website to showcase my projects, skills, and information abo
 
 ## Future Features
 * Chatbot
-* Using Meetup API
-* Using Udemy API
+* Implement Meetup API
+* Implement Udemy API
 
 ## Process
 
