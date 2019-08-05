@@ -18,6 +18,12 @@ _This is a porfolio website to showcase my projects, skills, and information abo
 
 ## Process
 
+#### 8/5/2019
+_Added React Router to the project._
+
+#### 8/4/2019
+_Built out some basic framework for the site added picture and side nav bar. Created project and about pages._
+
 #### 7/29/2019
 _Started working on design of the website using Figma. Used create-react-app to generate a framework for the site._
 

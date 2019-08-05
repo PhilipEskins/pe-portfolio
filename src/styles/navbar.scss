@@ -1,15 +1,19 @@
 #navbar {
   background-color: black;
-  max-width: 25vw;
+  width: 25vw;
+  max-width: 250px;
   height: 100vh;
   margin: 0;
   color: white;
-  display: grid;
-  justify-content: center;
+  // display: grid;
+  // grid-template-rows: 50px;
+  // justify-content: center;
+  grid-column: 1;
 }
 
 #mainPhoto {
   width: 15vw;
+  max-width: 200px;
   border-radius: 50%;
 }
 
@@ -21,4 +25,8 @@ h1 {
   color: pink;
   margin: 0;
   text-align: center;
+}
+
+ul {
+  list-style-position: inside;
 }
