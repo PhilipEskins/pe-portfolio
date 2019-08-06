@@ -18,6 +18,9 @@ _This is a porfolio website to showcase my projects, skills, and information abo
 
 ## Process
 
+#### 8/6/2019
+_Made a new branch of v1.0 of the original site, decided to try something different and made a firstview component. Found a cool star background from this site https://1-background.com/stars_1.htm_
+
 #### 8/5/2019
 _Added React Router to the project. Created project and about components._
 
