@@ -8,7 +8,7 @@
 .box {
   // background-color: navy;
   // background-image: linear-gradient(black, navy);
-  background-image: url("../assets/img/stars.jpg");
+  // background-image: url("../assets/img/stars.jpg");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,14 +17,25 @@
 }
 
 .content {
-  background: rgba(245,242,208,.7);
-  // background-color: #fffff0;
+  // background: rgba(245,242,208,.7);
+  background-color: #fffff0;
   color: black;
   height: 500px;
   width: 500px;
   align-self: center;
   border-radius: 2%;
+  display: grid;
+  justify-content: center;
   h1 {
     font-size: 4vh;
   }
+  img {
+    margin: auto;
+    width: 30%;
+  }
+}
+
+#more {
+
+  bottom: 0;
 }

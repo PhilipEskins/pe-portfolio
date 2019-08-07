@@ -8,7 +8,7 @@ function resume() {
       <h1>Resume works</h1>
           <iframe src={public_resume}>
             <p>Your browser does not support PDFs.
-              <a href="https://example.com/test.pdf">Download the PDF</a>.
+              <a href={public_resume}>Download the PDF</a>.
             </p>
           </iframe>
     </div>

@@ -6,16 +6,18 @@ import philip from '../assets/img/Phil_Squared_Photo.jpg'
 function navbar() {
   return (
     <div id ="navbar">
-      <h1>Navbar</h1>
-      <img id="mainPhoto" src={philip} alt="Philip" />
-      <ul>
-        <li><Link to='/projects'>Projects</Link></li>
-        <li><Link to='/about'>About</Link></li>
-        <li><Link to='/resume'>Resume</Link></li>
-        <li>Contact</li>
-      </ul>
+      <h1>Navbar works</h1>
     </div>
   )
 };
 
 export default navbar;
+
+// <h1>Navbar</h1>
+// <img id="mainPhoto" src={philip} alt="Philip" />
+// <ul>
+//   <li><Link to='/projects'>Projects</Link></li>
+//   <li><Link to='/about'>About</Link></li>
+//   <li><Link to='/resume'>Resume</Link></li>
+//   <li>Contact</li>
+// </ul>
