@@ -7,6 +7,10 @@ function navbar() {
   return (
     <div id ="navbar">
       <h1>Navbar works</h1>
+      <ul>
+        <li>Home</li>
+        <li>Other</li>
+      </ul>
     </div>
   )
 };

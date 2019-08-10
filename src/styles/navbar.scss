@@ -1,4 +1,15 @@
 #navbar {
   position: sticky;
   top: 0;
+  display: grid;
+  grid-template: 1fr / 2fr 1fr;
+}
+
+ul {
+  align-self: center;
+  justify-self: end;
+}
+
+li {
+  display: inline;
 }

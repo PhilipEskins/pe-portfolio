@@ -18,6 +18,12 @@ _This is a porfolio website to showcase my projects, skills, and information abo
 
 ## Process
 
+#### 8/9/2019
+_Got the nice scroll effect working. Might need to move it up the tree so the other components can get access to the function. Will need to look into adding a fallback for the smooth scrolling in case someone views it on a browser that doesn't support it._
+
+#### 8/7/2019
+_Decided to ditch the star background as it had an early 2000's vibe to it. Will probably make this a single page site with the cool scroll effect._
+
 #### 8/6/2019
 _Made a new branch of v1.0 of the original site, decided to try something different and made a firstview component. Found a cool star background from this site https://1-background.com/stars_1.htm_
 
