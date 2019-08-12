@@ -3,6 +3,7 @@
   top: 0;
   display: grid;
   grid-template: 1fr / 2fr 1fr;
+  background-color: lightslategray;
 }
 
 ul {
@@ -12,4 +13,6 @@ ul {
 
 li {
   display: inline;
+  font-size: 1.5vw;
+  margin: 0px 10px;
 }

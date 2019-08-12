@@ -2,6 +2,11 @@
   // display: grid;
   // grid-template: 1fr/ 1fr 1fr;
   height: 100vh;
+  background-image: url(../assets/img/glacier.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -19,6 +24,7 @@
 .content {
   // background: rgba(245,242,208,.7);
   background-color: #fffff0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: black;
   height: 500px;
   width: 500px;
