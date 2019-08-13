@@ -2,3 +2,62 @@
   text-align: center;
   margin: 100px;
 }
+
+#projectArea {
+  display: grid;
+  grid-template: 70vh/1fr 1fr 1fr;
+}
+
+#first {
+  grid-column: 1;
+  grid-row: 1;
+  display: grid;
+  .topPanel {
+    grid-row: 1;
+    grid-column: 1;
+    background-color: red;
+  }
+  .bottomPanel {
+    grid-row: 1;
+    grid-column: 1;
+    z-index: -1;
+    align-self: end;
+  }
+  img {
+    width: 100%;
+  }
+  .topPanel:hover ~ .bottomPanel {
+    border: black solid 1px;
+    transform: translate(0px, 20px);
+  }
+}
+
+#second {
+  grid-column: 2;
+  grid-row: 1;
+  display: grid;
+  .topPanel {
+    grid-row: 1;
+    grid-column: 1;
+    background-color: purple;
+  }
+  .bottomPanel {
+    grid-row: 1;
+    grid-column: 1;
+  }
+}
+
+#third {
+  grid-column: 3;
+  grid-row: 1;
+  display: grid;
+  .topPanel {
+    grid-row: 1;
+    grid-column: 1;
+    background-color: lightblue;
+  }
+  .bottomPanel {
+    grid-row: 1;
+    grid-column: 1;
+  }
+}

@@ -9,13 +9,13 @@ function navbar(props) {
     <div id ="navbar">
       <h1>Logo will go here</h1>
       <ul>
-        <li class="link" onClick={() => props.onScroll('firstview')}>Home</li>
-        <li class="link" onClick={() => props.onScroll('projects')}>Projects</li>
+        <li className="link" onClick={() => props.onScroll('firstview')}>Home</li>
+        <li className="link" onClick={() => props.onScroll('projects')}>Projects</li>
         <li>Experiences</li>
         <li>Skills</li>
         <li>Meetups</li>
         <li>Courses</li>
-        <li class="link" onClick={() => props.onScroll('resume')}>Resume</li>
+        <li className="link" onClick={() => props.onScroll('resume')}>Resume</li>
       </ul>
     </div>
   )

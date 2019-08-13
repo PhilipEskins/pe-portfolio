@@ -17,7 +17,7 @@ function firstview(props) {
         <div className="content">
           <h1>Philip Eskins - Front End Developer</h1>
           <img src={philip} alt="Picture of Philip Eskins" />
-          <p>Thank you for visiting my website. I'm a Front End Developer open to new opportunities. On this site you'll be able to see some of my <span class="link" onClick={() => props.onScroll('projects')}>projects</span>, meetups I go to, what I'm currently learning, see my skills and experiences, and find a printable version of my <span class="link" onClick={() => props.onScroll('resume')}>resume</span>. Feel free to contact me if you think I'd be a good fit with a project you have.</p>
+          <p>Thank you for visiting my website. I'm a Front End Developer open to new opportunities. On this site you'll be able to see some of my <span className="link" onClick={() => props.onScroll('projects')}>projects</span>, meetups I go to, what I'm currently learning, see my skills and experiences, and find a printable version of my <span className="link" onClick={() => props.onScroll('resume')}>resume</span>. Feel free to contact me if you think I'd be a good fit with a project you have.</p>
           <p id="more">See more</p>
         </div>
       </div>
