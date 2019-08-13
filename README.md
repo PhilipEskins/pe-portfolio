@@ -18,6 +18,9 @@ _This is a porfolio website to showcase my projects, skills, and information abo
 
 ## Process
 
+#### 8/12/19
+_Moved the scroll effect function up so I can pass it down to any component that might need it. Changed the background for the firstview and everybody seems to like it much better Made the content box a little transparent so people can see the picture behind it. Added the projects component back in to experiment with the scroll effect._
+
 #### 8/9/2019
 _Got the nice scroll effect working. Might need to move it up the tree so the other components can get access to the function. Will need to look into adding a fallback for the smooth scrolling in case someone views it on a browser that doesn't support it._
 

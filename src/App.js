@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import './styles/App.scss';
 import Firstview from './components/firstview';
 import Navbar from './components/navbar';
+import Projects from './components/projects';
 import Resume from './components/resume';
 
 class App extends React.Component {
@@ -18,6 +19,7 @@ class App extends React.Component {
       <div className="App">
         <Firstview onScroll={this.handleScroll} />
         <Navbar onScroll={this.handleScroll} />
+        <Projects />
         <Resume />
       </div>
     );

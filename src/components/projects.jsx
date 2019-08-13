@@ -3,8 +3,9 @@ import '../styles/projects.scss'
 
 function projects() {
   return(
-    <div id="projects">
-      <h1>Projects works</h1>
+    <div>
+      <hr id="projects" />
+      <h1 class='header'>Projects</h1>
     </div>
   )
 };
