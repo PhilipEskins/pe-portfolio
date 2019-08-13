@@ -5,17 +5,39 @@
 
 #projectArea {
   display: grid;
-  grid-template: 70vh/1fr 1fr 1fr;
+  grid-template: 80vh 80vh/1fr 1fr;
+  grid-gap: 100px;
+  margin: 0px 100px;
 }
 
 #first {
   grid-column: 1;
   grid-row: 1;
   display: grid;
+  grid-template: 80vh/1fr;
   .topPanel {
     grid-row: 1;
     grid-column: 1;
-    background-color: red;
+    background-color: #b0b0b0;
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr 30px / 1fr;
+    justify-items: center;
+    img {
+      width: 100%;
+    }
+    h3 {
+      margin: auto;
+      text-decoration: underline;
+    }
+    p {
+      margin: 10px 20px;
+    }
+    .cutout {
+      height: 60px;
+      width: 80px;
+      background-color: lightgray;
+      border-radius: 50% 50% 50% 50%;
+    }
   }
   .bottomPanel {
     grid-row: 1;
@@ -23,12 +45,9 @@
     z-index: -1;
     align-self: end;
   }
-  img {
-    width: 100%;
-  }
   .topPanel:hover ~ .bottomPanel {
     border: black solid 1px;
-    transform: translate(0px, 20px);
+    transform: translate(0px,100px);
   }
 }
 
@@ -48,8 +67,8 @@
 }
 
 #third {
-  grid-column: 3;
-  grid-row: 1;
+  grid-column: 1;
+  grid-row: 2;
   display: grid;
   .topPanel {
     grid-row: 1;

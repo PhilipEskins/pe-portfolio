@@ -5,12 +5,6 @@ import PropTypes from 'prop-types';
 
 function firstview(props) {
 
-  // function scroll(element) {
-  //   // preventDefault();
-  //   var scrollElement = document.getElementById(element);
-  //   scrollElement.scrollIntoView({behavior:'smooth'});
-  // }
-
   return(
     <div id="firstview">
       <div className="box">

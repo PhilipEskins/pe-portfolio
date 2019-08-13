@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 function navbar(props) {
   return (
     <div id ="navbar">
-      <h1>Logo will go here</h1>
+      <h1>Logo</h1>
       <ul>
         <li className="link" onClick={() => props.onScroll('firstview')}>Home</li>
         <li className="link" onClick={() => props.onScroll('projects')}>Projects</li>
@@ -26,12 +26,3 @@ navbar.propTypes = {
 }
 
 export default navbar;
-
-// <h1>Navbar</h1>
-// <img id="mainPhoto" src={philip} alt="Philip" />
-// <ul>
-//   <li><Link to='/projects'>Projects</Link></li>
-//   <li><Link to='/about'>About</Link></li>
-//   <li><Link to='/resume'>Resume</Link></li>
-//   <li>Contact</li>
-// </ul>
