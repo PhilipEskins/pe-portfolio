@@ -18,6 +18,9 @@ _This is a porfolio website to showcase my projects, skills, and information abo
 
 ## Process
 
+#### 8/13/19
+_Built out the framework for the project card and got a neat hover effect working._
+
 #### 8/12/19
 _Moved the scroll effect function up so I can pass it down to any component that might need it. Changed the background for the firstview and everybody seems to like it much better Made the content box a little transparent so people can see the picture behind it. Added the projects component back in to experiment with the scroll effect._
 

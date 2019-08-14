@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/navbar.scss';
-import philip from '../assets/img/Phil_Squared_Photo.jpg';
+import logo from '../assets/img/logo.png';
 import PropTypes from 'prop-types';
 
 function navbar(props) {
   return (
     <div id ="navbar">
-      <h1>Logo</h1>
+      <img src={logo} />
       <ul>
         <li className="link" onClick={() => props.onScroll('firstview')}>Home</li>
         <li className="link" onClick={() => props.onScroll('projects')}>Projects</li>

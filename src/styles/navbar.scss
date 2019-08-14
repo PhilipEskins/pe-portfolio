@@ -2,17 +2,20 @@
   position: sticky;
   top: 0;
   display: grid;
-  grid-template: 1fr / 2fr 1fr;
+  grid-template: 75px / 2fr 1fr;
   background-color: lightslategray;
-}
+  ul {
+    align-self: center;
+    justify-self: end;
+  }
 
-ul {
-  align-self: center;
-  justify-self: end;
-}
+  li {
+    display: inline;
+    font-size: 1.5vw;
+    margin: 0px 10px;
+  }
 
-li {
-  display: inline;
-  font-size: 1.5vw;
-  margin: 0px 10px;
+  img {
+    height: 100%;
+  }
 }
