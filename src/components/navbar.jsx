@@ -13,8 +13,7 @@ function navbar(props) {
         <li className="link" onClick={() => props.onScroll('projects')}>Projects</li>
         <li>Experiences</li>
         <li>Skills</li>
-        <li>Meetups</li>
-        <li>Courses</li>
+        <li>Contact</li>
         <li className="link" onClick={() => props.onScroll('resume')}>Resume</li>
       </ul>
     </div>

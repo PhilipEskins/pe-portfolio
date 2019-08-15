@@ -18,6 +18,9 @@ _This is a porfolio website to showcase my projects, skills, and information abo
 
 ## Process
 
+#### 8/14/19
+_Did some minor tweaks to the page. Added logo and moved css classes around to make the code drier._
+
 #### 8/13/19
 _Built out the framework for the project card and got a neat hover effect working._
 
