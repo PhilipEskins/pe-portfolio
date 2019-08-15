@@ -8,8 +8,9 @@ $size: 35px;
 #projectArea {
   display: grid;
   grid-template: 80vh 80vh/1fr 1fr;
-  grid-gap: 100px;
+  grid-gap: 100px 10px;
   margin: 0px 100px;
+  margin-bottom: 100px;
 }
 
 .center {
@@ -58,9 +59,6 @@ $size: 35px;
     grid-row: 1;
     grid-column: 1;
     background-color: #b0b0b0;
-    // display: grid;
-    // grid-template: 1fr 1fr 1fr 1fr 35px / 1fr;
-    // justify-items: center;
   }
   .bottomPanel {
     grid-row: 1;
@@ -68,7 +66,6 @@ $size: 35px;
   }
   .topPanel:hover ~ .bottomPanel {
     border: black solid 1px;
-    // transform: translate(0px,100px);
     animation-name: hoverdrop;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -79,14 +76,23 @@ $size: 35px;
   grid-column: 2;
   grid-row: 1;
   display: grid;
+  grid-template: 80vh/1fr;
+  max-width: 500px;
+  margin: 0px auto;
   .topPanel {
     grid-row: 1;
     grid-column: 1;
-    background-color: purple;
+    background-color: #b0b0b0;
   }
   .bottomPanel {
     grid-row: 1;
     grid-column: 1;
+  }
+  .topPanel:hover ~ .bottomPanel {
+    border: black solid 1px;
+    animation-name: hoverdrop;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
   }
 }
 
@@ -94,14 +100,47 @@ $size: 35px;
   grid-column: 1;
   grid-row: 2;
   display: grid;
+  grid-template: 80vh/1fr;
+  max-width: 500px;
+  margin: 0px auto;
   .topPanel {
     grid-row: 1;
     grid-column: 1;
-    background-color: lightblue;
+    background-color: #b0b0b0;
   }
   .bottomPanel {
     grid-row: 1;
     grid-column: 1;
+  }
+  .topPanel:hover ~ .bottomPanel {
+    border: black solid 1px;
+    animation-name: hoverdrop;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+}
+
+#fourth {
+  grid-column: 2;
+  grid-row: 2;
+  display: grid;
+  grid-template: 80vh/1fr;
+  max-width: 500px;
+  margin: 0px auto;
+  .topPanel {
+    grid-row: 1;
+    grid-column: 1;
+    background-color: #b0b0b0;
+  }
+  .bottomPanel {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .topPanel:hover ~ .bottomPanel {
+    border: black solid 1px;
+    animation-name: hoverdrop;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
   }
 }
 
