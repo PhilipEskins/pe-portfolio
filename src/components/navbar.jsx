@@ -9,7 +9,7 @@ function navbar(props) {
     <div id ="navbar">
       <img src={logo} />
       <ul>
-        <li className="link" onClick={() => props.onScroll('firstview')}>Home</li>
+        <li className="link" onClick={() => props.onScroll('firstview')}>Top</li>
         <li className="link" onClick={() => props.onScroll('projects')}>Projects</li>
         <li className="link" onClick={() => props.onScroll('experiences')}>Experiences</li>
         <li>Skills</li>
