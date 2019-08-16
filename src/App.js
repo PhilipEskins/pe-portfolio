@@ -5,6 +5,7 @@ import Firstview from './components/firstview';
 import Navbar from './components/navbar';
 import Projects from './components/projects';
 import Resume from './components/resume';
+import Experiences from './components/experiences';
 
 class App extends React.Component {
 
@@ -20,6 +21,7 @@ class App extends React.Component {
         <Firstview onScroll={this.handleScroll} />
         <Navbar onScroll={this.handleScroll} />
         <Projects />
+        <Experiences />
         <Resume />
       </div>
     );

@@ -4,8 +4,9 @@ import public_resume from '../assets/docs/resume.pdf'
 
 function resume() {
   return(
-    <div id="resume">
-      <h1>Resume works</h1>
+    <div>
+      <hr id="resume" />
+      <h1 className="header">Resume</h1>
           <iframe src={public_resume}>
             <p>Your browser does not support PDFs.
               <a href={public_resume}>Download the PDF</a>.
