@@ -6,6 +6,7 @@ import Navbar from './components/navbar';
 import Projects from './components/projects';
 import Resume from './components/resume';
 import Experiences from './components/experiences';
+import Contact from './components/contact';
 
 class App extends React.Component {
 
@@ -22,6 +23,7 @@ class App extends React.Component {
         <Navbar onScroll={this.handleScroll} />
         <Projects />
         <Experiences />
+        <Contact />
         <Resume />
       </div>
     );

@@ -1,0 +1,39 @@
+.form {
+  display: grid;
+  grid-template: 1fr 1fr 1fr/1fr 1fr;
+  max-width: 50%;
+  margin: auto;
+  grid-gap: 20px;
+}
+
+.name {
+  grid-column: 1;
+  grid-row: 1;
+  input {
+    width: 100%;
+  }
+}
+
+.email {
+  grid-column: 2;
+  grid-row: 1;
+  input {
+    width: 100%;
+  }
+}
+
+.message {
+  grid-column: 1/ span 2;
+  grid-row: 2;
+  textarea {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.submit {
+  grid-column: 1/3;
+  grid-row: 3;
+  align-self: center;
+  justify-self: center;
+}
