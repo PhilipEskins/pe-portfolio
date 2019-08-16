@@ -6,10 +6,12 @@
 
 ## Description
 
-_This is a porfolio website to showcase my projects, skills, and information about me._
+_This is a porfolio website to showcase my projects, skills, and other information about me._
 
 ## Current Features
-* Still in planning stage
+* Scroll effect when you click on a Link
+* 4 projects displayed
+* Printable version of resume
 
 ## Future Features
 * Chatbot
@@ -17,6 +19,9 @@ _This is a porfolio website to showcase my projects, skills, and information abo
 * Implement Udemy API
 
 ## Process
+
+#### 8/15/19
+_Finished out the projects component and started work on Experiences._
 
 #### 8/14/19
 _Did some minor tweaks to the page. Added logo and moved css classes around to make the code drier._
@@ -55,7 +60,7 @@ _Started working on design of the website using Figma. Used create-react-app to 
 
 ## Known Bugs
 
-_Still in design phase_
+_Work in progress_
 
 ## Support and contact details
 

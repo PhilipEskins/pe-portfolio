@@ -9,7 +9,7 @@ function projects() {
   return(
     <div>
       <hr id="projects" />
-      <h1 className='header'>Projects</h1>
+      <h2 className='header'>Projects</h2>
       <div id="projectArea">
         <div id="first">
           <div className="topPanel">

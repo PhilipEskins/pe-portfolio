@@ -1,0 +1,19 @@
+#experiencesComponent {
+  background-image: url(../assets/img/waterfall.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+.background {
+  background-color: lightgray;
+}
+
+.experiencesContainer {
+  display: grid;
+  grid-template: 1fr/ 1fr 1fr 1fr;
+  grid-gap: 100px;
+  margin: 0px 100px;
+}
