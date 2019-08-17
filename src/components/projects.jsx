@@ -28,7 +28,7 @@ function projects() {
         <div id="second">
           <div className="topPanel">
             <img src={Disneyland} />
-            <h3>Monopoly (Angular)</h3>
+            <h3>Disneyland.com Clone (Angular)</h3>
             <p>A clone of the Disneyland.com website using Angular. The video plays, you might have to refresh a few times to get it to load. The only link that works is the Attractions one under 'Things to do'. This will take you to a simple page that displays the attractions I have entered plus an Admin link at the bottom that lets you add, edit or delete attractions.</p>
             <div className="center"><a href="https://disneyland-clone.firebaseapp.com/" target="_blank">View live version</a> | <a href="https://github.com/PhilipEskins/disneyland-clone" target="_blank">View Github Repo</a><div className="center">Links open in a new window</div></div>
             <div className="cutout"></div>
