@@ -7,12 +7,47 @@ import Doggame from '../assets/img/dog-game.png';
 
 function projects() {
 
+  var slideIndex = 1;
+  // showSlides(slideIndex);
+
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "grid";
+    dots[slideIndex-1].className += " active";
+  }
+
   return(
-    <div>
+    <div onLoad={() => {showSlides()}}>
       <hr id="projects" />
       <h2 className='header'>Projects</h2>
       <div id="projectArea">
-        <div id="first">
+        <div className="dotContainer">
+          <span className="dot" onClick={() => {currentSlide(1)}}></span>
+          <span className="dot" onClick={() => {currentSlide(2)}}></span>
+          <span className="dot" onClick={() => {currentSlide(3)}}></span>
+          <span className="dot" onClick={() => {currentSlide(4)}}></span>
+        </div>
+        <div id="first" className="mySlides">
           <div className="topPanel">
             <img className="lozad" data-src={Dogreact} alt="Dog Guess Game"/>
             <h3>Dog Guessing Game</h3>
@@ -26,7 +61,7 @@ function projects() {
           </div>
         </div>
 
-        <div id="second">
+        <div id="second" className="mySlides">
           <div className="topPanel">
             <img className="lozad" data-src={Disneyland} alt="Disneyland.com Clone (Angular)"/>
             <h3>Disneyland.com Clone (Angular)</h3>
@@ -40,7 +75,7 @@ function projects() {
           </div>
         </div>
 
-        <div id="third">
+        <div id="third" className="mySlides">
           <div className="topPanel">
             <img className="lozad" data-src={Monopoly} alt="Monopoly Recreation"/>
             <h3>Monopoly Recreation</h3>
@@ -54,7 +89,7 @@ function projects() {
           </div>
         </div>
 
-        <div id="fourth">
+        <div id="fourth" className="mySlides">
           <div className="topPanel">
             <img className="lozad" data-src={Doggame} alt="Dog Owner Sim"/>
             <h3>Dog Owner Sim</h3>
@@ -68,6 +103,9 @@ function projects() {
           </div>
         </div>
 
+        <button className="prev" onClick={() => {plusSlides(-1)}}>&#10094;</button>
+        <button className="next" onClick={() => {plusSlides(1)}}>&#10095;</button>
+        <br />
       </div>
     </div>
   )
