@@ -7,7 +7,13 @@ import PropTypes from 'prop-types';
 function navbar(props) {
   return (
     <div id ="navbar">
-      <img src={logo} />
+      <div className="diamonds">
+        <img src={logo} />
+        <div className="logoContainer">
+          <a href="https://github.com/PhilipEskins" target="_blank"><i className="fab fa-github logo"></i></a>
+          <a href="https://www.linkedin.com/in/philipeskins/" target="_blank"><i className="fab fa-linkedin logo"></i></a>
+        </div>
+      </div>
       <ul>
         <li className="link" onClick={() => props.onScroll('firstview')}>Top</li>
         <li className="link" onClick={() => props.onScroll('projects')}>Projects</li>

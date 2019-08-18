@@ -1,6 +1,5 @@
 #firstview {
   height: 100vh;
-  background-image: url(../assets/img/glacier.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -10,6 +9,11 @@
 #chevron {
   width: 50px;
   margin: 0px auto;
+}
+
+.logo {
+  font-size: 50px;
+  margin: 0px 15px;
 }
 
 .box {

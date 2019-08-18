@@ -1,6 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import './styles/App.scss';
+import lozad from 'lozad';
 import Firstview from './components/firstview';
 import Navbar from './components/navbar';
 import Projects from './components/projects';
@@ -9,6 +10,15 @@ import Experiences from './components/experiences';
 import Contact from './components/contact';
 
 class App extends React.Component {
+
+  constructor() {
+    super();
+    this.observer = lozad();
+  }
+
+  componentDidMount() {
+    this.observer.observe();
+  }
 
   handleScroll(element) {
     // preventDefault();

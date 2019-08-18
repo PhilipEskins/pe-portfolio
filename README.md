@@ -20,6 +20,12 @@ _This is a porfolio website to showcase my projects, skills, and other informati
 
 ## Process
 
+#### 8/17/19
+_https://tinyjpg.com/_
+
+#### 8/16/19
+_Finished out experiences and added contact me section._
+
 #### 8/15/19
 _Finished out the projects component and started work on Experiences._
 

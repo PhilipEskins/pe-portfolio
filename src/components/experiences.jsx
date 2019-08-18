@@ -1,9 +1,10 @@
 import React from 'react';
 import '../styles/experiences.scss';
+import waterfall from '../assets/img/waterfall.jpg'
 
 function experiences() {
   return(
-    <div id="experiencesComponent">
+    <div id="experiencesComponent" className="lozad" data-background-image={waterfall}>
       <hr id="experiences" />
       <h2 className="header"><span className="background">Experiences</span></h2>
 
