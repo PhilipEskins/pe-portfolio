@@ -7,7 +7,7 @@ function resume() {
     <div>
       <hr id="resume" />
       <h2 className="header">Resume</h2>
-          <iframe className="lozad" data-src={public_resume}>
+          <iframe className="lozad" data-src={public_resume} title="Philip's Resume">
             <p>Your browser does not support PDFs.
               <a href={public_resume}>Download the PDF</a>.
             </p>

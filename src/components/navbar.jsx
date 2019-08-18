@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../styles/navbar.scss';
 import logo from '../assets/img/logo.png';
 import PropTypes from 'prop-types';
@@ -8,10 +7,10 @@ function navbar(props) {
   return (
     <div id ="navbar">
       <div className="diamonds">
-        <img src={logo} />
+        <img src={logo} alt="Logo"/>
         <div className="logoContainer">
-          <a href="https://github.com/PhilipEskins" target="_blank"><i className="fab fa-github logo"></i></a>
-          <a href="https://www.linkedin.com/in/philipeskins/" target="_blank"><i className="fab fa-linkedin logo"></i></a>
+          <a href="https://github.com/PhilipEskins" target="_blank" rel="noopener noreferrer"><i className="fab fa-github logo"></i></a>
+          <a href="https://www.linkedin.com/in/philipeskins/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin logo"></i></a>
         </div>
       </div>
       <ul>

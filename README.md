@@ -21,7 +21,7 @@ _This is a porfolio website to showcase my projects, skills, and other informati
 ## Process
 
 #### 8/17/19
-_https://tinyjpg.com/_
+_Implemented font awesome into my project to use the Linkedin and Github logos. Used https://tinyjpg.com/ to shrink my photo file sizes. Added lozad lazy loading to all photos and my resume._
 
 #### 8/16/19
 _Finished out experiences and added contact me section._

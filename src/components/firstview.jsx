@@ -13,8 +13,8 @@ function firstview(props) {
           <img className="lozad" data-src={philip} alt="Philip Eskins" />
           <p>Thank you for visiting my website. I'm a Front End Developer open to new opportunities. On this site you'll be able to see some of my <span className="link" onClick={() => props.onScroll('projects')}>projects</span>, <span className="link" onClick={() => props.onScroll('experiences')}>experiences and skills</span>, and find a printable version of my <span className="link" onClick={() => props.onScroll('resume')}>resume</span>. Feel free to <span className="link" onClick={() => props.onScroll('contact')}>contact me</span> if you think I'd be a good fit with a project you have.</p>
           <div className="logoContainer">
-            <a href="https://github.com/PhilipEskins" target="_blank"><i className="fab fa-github logo"></i></a>
-            <a href="https://www.linkedin.com/in/philipeskins/" target="_blank"><i className="fab fa-linkedin logo"></i></a>
+            <a href="https://github.com/PhilipEskins" target="_blank" rel="noopener noreferrer"><i className="fab fa-github logo"></i></a>
+            <a href="https://www.linkedin.com/in/philipeskins/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin logo"></i></a>
           </div>
           <div className="link" onClick={() => props.onScroll('projects')}>
             <p>See more</p>

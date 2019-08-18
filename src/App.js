@@ -1,5 +1,4 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
 import './styles/App.scss';
 import lozad from 'lozad';
 import Firstview from './components/firstview';
