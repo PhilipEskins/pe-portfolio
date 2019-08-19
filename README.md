@@ -20,6 +20,9 @@ _This is a porfolio website to showcase my projects, skills, and other informati
 
 ## Process
 
+#### 8/18/19
+_Changed projects component to be a carousel instead of 4 panels, this will allow me to expand the panel to include more information._
+
 #### 8/17/19
 _Implemented font awesome into my project to use the Linkedin and Github logos. Used https://tinyjpg.com/ to shrink my photo file sizes. Added lozad lazy loading to all photos and my resume._
 
