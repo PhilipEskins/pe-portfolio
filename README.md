@@ -20,6 +20,9 @@ _This is a porfolio website to showcase my projects, skills, and other informati
 
 ## Process
 
+#### 8/19/19
+_Started a new branch for a design my wife came up with. Found a cool animation for my links at https://tobiasahlin.com/blog/css-trick-animating-link-underlines/ ._
+
 #### 8/18/19
 _Changed projects component to be a carousel instead of 4 panels, this will allow me to expand the panel to include more information._
 

@@ -2,25 +2,37 @@
   position: sticky;
   top: 0;
   display: grid;
-  grid-template: 75px / 50% 50%;
-  background-color: lightslategray;
-  ul {
-    align-self: center;
-    justify-self: end;
-  }
+  grid-template: 75px / 10% 90%;
+  background-color: #aac6d9;
+  padding: 10px 20px;
+  border-bottom: 10px solid #7cb4c1;
 
   li {
     display: inline;
-    font-size: 1.5vw;
+    font-size: 15px;
     margin: 0px 10px;
   }
 
   img {
     height: 100%;
   }
-}
 
-.diamonds {
-  display: flex;
-  align-items: center;
+  .linkContainer {
+    display: flex;
+    flex-direction: column;
+    i {
+      margin: 0px 20px;
+    }
+  }
+
+  .links {
+    text-align: right;
+  }
+
+  .logoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 25px;
+  }
 }
