@@ -43,4 +43,35 @@
       margin: 5px 10px;
     }
   }
+
+  .hamburgerMenu {
+    display: none;
+  }
+
+  .hamburgerLinks {
+    display: none;
+  }
+
+  @media only screen and (max-width: 860px) {
+
+    #navbar {
+      li {
+        color: white;
+      }
+    }
+
+    .linkContainer {
+      display: none;
+    }
+    .hamburgerMenu {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      font-size: 3em;
+    }
+    .hamburgerLinks {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 }
