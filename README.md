@@ -10,10 +10,11 @@ _This is a porfolio website to showcase my projects, skills, and other informati
 
 ## Current Features
 * Scroll effect when you click on a Link
-* 4 projects displayed
+* Carousel of 4 projects you can scroll through
 * Printable version of resume
 
 ## Future Features
+* Optimize mobile view
 * Chatbot
 * Implement Meetup API
 * Implement Udemy API
@@ -72,7 +73,7 @@ _Started working on design of the website using Figma. Used create-react-app to 
 
 ## Known Bugs
 
-_Work in progress_
+_Doesn't look correct on mobile phones._
 
 ## Support and contact details
 
