@@ -13,7 +13,7 @@ function resume() {
           </p>
         </iframe>
         <div id="resumeDownload">
-          <p>This is a test</p>
+          <p>Download my resume <a href={public_resume}>here</a></p>
         </div>
     </div>
   )

@@ -6,14 +6,15 @@ function contact() {
     <div>
       <hr id="contact" />
       <h1 className="header">Contact Me</h1>
-      <form name="contact" className="form" method="POST" data-netlify="true">
+      <form name="contact" className="form" method="POST">
+        <input type="hidden" name="form-name" value="contact" />
         <div className="name">
           <label htmlFor="name">*Name</label>
           <input type="text" id="name" name="name"/>
         </div>
         <div className="email">
           <label htmlFor="email">*Email</label>
-          <input type="text" id="email" name="email"/>
+          <input type="email" id="email" name="email"/>
         </div>
         <div className="message">
           <label htmlFor="message">*Message</label>
