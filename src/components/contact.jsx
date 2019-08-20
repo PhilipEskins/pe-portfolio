@@ -9,15 +9,15 @@ function contact() {
       <form name="contact" className="form" method="POST" data-netlify="true">
         <div className="name">
           <label htmlFor="name">*Name</label>
-          <input type="text" id="name" />
+          <input type="text" id="name" name="name"/>
         </div>
         <div className="email">
           <label htmlFor="email">*Email</label>
-          <input type="text" id="email" />
+          <input type="text" id="email" name="email"/>
         </div>
         <div className="message">
           <label htmlFor="message">*Message</label>
-          <textarea id="message" placeholder="Type something here"></textarea>
+          <textarea id="message" placeholder="Type something here" name="message"></textarea>
         </div>
         <div className="submit">
           <button type="submit">Submit</button>

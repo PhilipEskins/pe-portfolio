@@ -10,15 +10,19 @@ _This is a porfolio website to showcase my projects, skills, and other informati
 
 ## Current Features
 * Scroll effect when you click on a Link
-* 4 projects displayed
+* Carousel of 4 projects you can scroll through
 * Printable version of resume
 
 ## Future Features
+* Optimize mobile view
 * Chatbot
 * Implement Meetup API
 * Implement Udemy API
 
 ## Process
+
+#### 8/19/19
+_Started a new branch for a design my wife came up with. Found a cool animation for my links at https://tobiasahlin.com/blog/css-trick-animating-link-underlines/ which I applied to the hover on links._
 
 #### 8/18/19
 _Changed projects component to be a carousel instead of 4 panels, this will allow me to expand the panel to include more information._
@@ -69,7 +73,7 @@ _Started working on design of the website using Figma. Used create-react-app to 
 
 ## Known Bugs
 
-_Work in progress_
+_Doesn't look correct on mobile phones._
 
 ## Support and contact details
 
