@@ -4,6 +4,7 @@ import Dogreact from '../assets/img/dogreact2.png';
 import Disneyland from '../assets/img/disneyland-angular.png';
 import Monopoly from '../assets/img/Monopoly.png';
 import Doggame from '../assets/img/dog-game.png';
+import arrows from '../assets/img/doublearrows.svg';
 
 function projects() {
 
@@ -37,7 +38,7 @@ function projects() {
   }
 
   return(
-    <div onLoad={() => {showSlides()}}>
+    <div id="projectsComponent" onLoad={() => {showSlides()}}>
       <hr id="projects" />
       <h2 className='header'>Projects</h2>
       <div id="projectArea">
@@ -103,8 +104,8 @@ function projects() {
           </div>
         </div>
 
-        <button className="prev" onClick={() => {plusSlides(-1)}}>&#10094;</button>
-        <button className="next" onClick={() => {plusSlides(1)}}>&#10095;</button>
+        <img className="prev" onClick={() => {plusSlides(-1)}} src={arrows} />
+        <img className="next" onClick={() => {plusSlides(1)}} src={arrows} />
         <br />
       </div>
     </div>

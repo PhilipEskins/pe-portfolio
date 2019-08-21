@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/firstview.scss';
 import glacier from '../assets/img/glacier.jpg';
+import arrows from '../assets/img/doublearrows.svg';
 import PropTypes from 'prop-types';
 function firstview(props) {
 
@@ -14,7 +15,7 @@ function firstview(props) {
             <a href="https://github.com/PhilipEskins" target="_blank" rel="noopener noreferrer"><i className="fab fa-github logo"></i></a>
             <div className="pointer" onClick={() => props.onScroll('projects')}>
               <p className="link--white">See more</p>
-              <i className="fas fa-angle-double-down logo"></i>
+              <img src={arrows} />
             </div>
             <a href="https://www.linkedin.com/in/philipeskins/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin logo"></i></a>
           </div>

@@ -12,6 +12,9 @@
 
 .pointer {
   cursor: pointer;
+  img {
+    transform: rotate(180deg);
+  }
 }
 
 .logo {

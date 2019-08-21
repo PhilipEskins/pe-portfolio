@@ -1,10 +1,27 @@
 $size: 35px;
 
+#projectsComponent {
+  background-color: #41575d;
+  .header {
+    color: white;
+    font-size: 3em;
+    border-bottom: 5px solid white;
+    padding: 0px 50px;
+    width: 40%;
+    margin: 100px auto 40px auto;
+  }
+}
+
+#projects {
+  border-color: #41575d;
+}
+
 #projectArea {
   display: grid;
   grid-template: 15px 1fr/1fr 1fr 1fr;
   margin-bottom: 100px;
   grid-row-gap: 10px;
+  color: white;
 }
 
 .center {
@@ -18,16 +35,12 @@ $size: 35px;
 
 .prev, .next {
   cursor: pointer;
-  width: 16px;
+  width: 50px;
   padding: 16px;
   color: white;
-  border-bottom-color: lightgray;
-  background-color: lightgray;
-  font-weight: bold;
-  font-size: 18px;
+  border-color: #41575d;
+  background-color: #41575d;
   transition: 0.6s ease;
-  // border-radius: 0 3px 3px 0;
-  user-select: none;
   align-self: center;
 }
 
@@ -35,6 +48,7 @@ $size: 35px;
   grid-row: 2;
   grid-column: 1;
   justify-self: end;
+  transform: rotate(-90deg);
 }
 
 .next {
@@ -42,6 +56,7 @@ $size: 35px;
   grid-column: 3;
   margin-right: 18px;
   border-radius: 3px 0 0 3px;
+  transform: rotate(90deg);
 }
 
 /* On hover, add a black background color with a little bit see-through */
