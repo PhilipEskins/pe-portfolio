@@ -14,7 +14,7 @@ function contact() {
         </div>
         <div className="email">
           <label htmlFor="email">*Email</label>
-          <input type="email" id="email" name="email" required/>
+          <input type="text" id="email" name="email" required/>
         </div>
         <div className="message">
           <label htmlFor="message">*Message</label>
