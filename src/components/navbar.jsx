@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 function navbar(props) {
   return (
-    <div id ="navbar">
+    <div id="navbar">
       <div className="imageContainer">
         <img src={logo} alt="Logo"/>
         <div className="logoContainer">
@@ -30,19 +30,15 @@ function navbar(props) {
       </div>
       <div className="hamburgerMenu">
         <i className="fas fa-bars"></i>
-          <div className="hamburgerLinks">
-            <ul>
-              <li className="" onClick={() => props.onScroll('firstview')}>Top</li>
-              <li>|</li>
-              <li className="" onClick={() => props.onScroll('projects')}>Projects</li>
-              <li>|</li>
-              <li className="" onClick={() => props.onScroll('experiences')}>Experiences</li>
-              <li>|</li>
-              <li className="" onClick={() => props.onScroll('contact')}>Contact</li>
-              <li>|</li>
-              <li className="" onClick={() => props.onScroll('resume')}>Resume</li>
-            </ul>
-          </div>
+        <div className="hamburgerLinks">
+          <ul>
+            <li className="" onClick={() => props.onScroll('firstview')}>Top</li>
+            <li className="" onClick={() => props.onScroll('projects')}>Projects</li>
+            <li className="" onClick={() => props.onScroll('experiences')}>Experiences</li>
+            <li className="" onClick={() => props.onScroll('contact')}>Contact</li>
+            <li className="" onClick={() => props.onScroll('resume')}>Resume</li>
+          </ul>
+        </div>
       </div>
     </div>
   )
