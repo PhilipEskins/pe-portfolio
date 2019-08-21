@@ -59,6 +59,7 @@
   #navbar {
     li {
       display: block;
+      margin: 15px;
     }
     ul {
       margin: 0px;
@@ -75,13 +76,17 @@
     i {
       justify-self: end;
       align-self: center;
+      cursor: pointer;
     }
     .hamburgerLinks {
       margin: 0;
-      display: block;
+      display: none;
       justify-self: end;
-      text-align: right;
+      text-align: center;
       background-color: #aac6d9;
+    }
+    .showLinks {
+      display: block;
     }
   }
 

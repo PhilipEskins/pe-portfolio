@@ -4,6 +4,16 @@ import logo from '../assets/img/logo.png';
 import PropTypes from 'prop-types';
 
 function navbar(props) {
+
+  function showDropDown() {
+    var x = document.getElementById('mobileLinks');
+    if (x.className === "hamburgerLinks") {
+      x.className += " showLinks";
+    } else {
+      x.className = "hamburgerLinks"
+    }
+  }
+
   return (
     <div id="navbar">
       <div className="imageContainer">
@@ -28,15 +38,15 @@ function navbar(props) {
           </ul>
         </div>
       </div>
-      <div className="hamburgerMenu">
-        <i className="fas fa-bars"></i>
-        <div className="hamburgerLinks">
+      <div id="mobileNav" className="hamburgerMenu">
+        <i className="fas fa-bars" onClick={() => showDropDown()}></i>
+        <div id="mobileLinks" className="hamburgerLinks">
           <ul>
-            <li className="" onClick={() => props.onScroll('firstview')}>Top</li>
-            <li className="" onClick={() => props.onScroll('projects')}>Projects</li>
-            <li className="" onClick={() => props.onScroll('experiences')}>Experiences</li>
-            <li className="" onClick={() => props.onScroll('contact')}>Contact</li>
-            <li className="" onClick={() => props.onScroll('resume')}>Resume</li>
+            <li className="link" onClick={() => props.onScroll('firstview')}>Top</li>
+            <li className="link" onClick={() => props.onScroll('projects')}>Projects</li>
+            <li className="link" onClick={() => props.onScroll('experiences')}>Experiences</li>
+            <li className="link" onClick={() => props.onScroll('contact')}>Contact</li>
+            <li className="link" onClick={() => props.onScroll('resume')}>Resume</li>
           </ul>
         </div>
       </div>
