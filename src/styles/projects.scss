@@ -19,7 +19,6 @@ $size: 35px;
 #projectArea {
   display: grid;
   grid-template: 15px 1fr/1fr 1fr 1fr;
-  margin-bottom: 100px;
   grid-row-gap: 10px;
   color: white;
 }
@@ -75,143 +74,53 @@ $size: 35px;
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: white;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
+.active {
+  background-color: #AB451E;
+}
+
+.dot:hover {
+  background-color: #7cb4c1;
+}
+
+.mySlides {
+  background-color: #7CB4C1;
+  grid-column: 2;
 }
 
 .topPanel {
+  height: 550px;
   display: grid;
-  grid-template: 1fr 1fr 1fr 1fr 35px / 1fr;
   justify-content: center;
   img {
-    width: 100%;
+    width: 90%;
+    margin: 20px auto;
   }
   h3 {
     margin: auto;
-    text-decoration: underline;
   }
   p {
     margin: 10px 20px;
+    text-align: center;
   }
-  .cutout {
-    height: $size;
-    width: $size * 2;
-    margin: 0 1em 1em 0;
-    justify-self: center;
-    background-color: lightgray;
-    border-top-left-radius: $size * 2;
-    border-top-right-radius: $size * 2;
+  a {
+    color: white;
   }
 }
+
 .bottomPanel {
-  height: 100px;
-  align-self: end;
-  z-index: -1;
-}
-
-#first {
-  grid-column: 2;
-  grid-row: 2;
   display: grid;
-  grid-template: 80vh/1fr;
-  max-width: 500px;
-  margin: 0px auto;
-  .topPanel {
-    grid-row: 1;
-    grid-column: 1;
-    background-color: #b0b0b0;
+  align-items: center;
+  background-color: #AAC6D9;
+  padding: 10px 20px;
+  color: black;
+  height: 60px;
+  p {
+    margin: 0;
   }
-  .bottomPanel {
-    grid-row: 1;
-    grid-column: 1;
-  }
-  .topPanel:hover ~ .bottomPanel {
-    border: black solid 1px;
-    animation-name: hoverdrop;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-  }
-}
-
-#second {
-  grid-column: 2;
-  grid-row: 2;
-  display: grid;
-  grid-template: 80vh/1fr;
-  max-width: 500px;
-  margin: 0px auto;
-  .topPanel {
-    grid-row: 1;
-    grid-column: 1;
-    background-color: #b0b0b0;
-  }
-  .bottomPanel {
-    grid-row: 1;
-    grid-column: 1;
-  }
-  .topPanel:hover ~ .bottomPanel {
-    border: black solid 1px;
-    animation-name: hoverdrop;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-  }
-}
-
-#third {
-  grid-column: 2;
-  grid-row: 2;
-  display: grid;
-  grid-template: 80vh/1fr;
-  max-width: 500px;
-  margin: 0px auto;
-  .topPanel {
-    grid-row: 1;
-    grid-column: 1;
-    background-color: #b0b0b0;
-  }
-  .bottomPanel {
-    grid-row: 1;
-    grid-column: 1;
-  }
-  .topPanel:hover ~ .bottomPanel {
-    border: black solid 1px;
-    animation-name: hoverdrop;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-  }
-}
-
-#fourth {
-  grid-column: 2;
-  grid-row: 2;
-  display: grid;
-  grid-template: 80vh/1fr;
-  max-width: 500px;
-  margin: 0px auto;
-  .topPanel {
-    grid-row: 1;
-    grid-column: 1;
-    background-color: #b0b0b0;
-  }
-  .bottomPanel {
-    grid-row: 1;
-    grid-column: 1;
-  }
-  .topPanel:hover ~ .bottomPanel {
-    border: black solid 1px;
-    animation-name: hoverdrop;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-  }
-}
-
-@keyframes hoverdrop {
-  0% {transform: translate(0px,0px) }
-  100% {transform: translate(0px,100px) }
 }
