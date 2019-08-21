@@ -1,16 +1,16 @@
 # _Philip Eskins' Portfolio_
 
-#### _Site to show off my skills and pojects_
+#### _Site to show off my skills and projects
 
 #### By _**Philip Eskins**_
 
 ## Description
 
-_This is a porfolio website to showcase my projects, skills, and other information about me._
+_This is a portfolio website to showcase my projects, skills, and other information about me._
 
 ## Current Features
 * Scroll effect when you click on a Link
-* Carousel of 4 projects you can scroll through
+* Carousel of 4 projects you can navigate through
 * Printable version of resume
 
 ## Future Features
@@ -20,6 +20,9 @@ _This is a porfolio website to showcase my projects, skills, and other informati
 * Implement Udemy API
 
 ## Process
+
+#### 8/20/19
+_Got the form to work, started working on a mobile friendly navbar._
 
 #### 8/19/19
 _Started a new branch for a design my wife came up with. Found a cool animation for my links at https://tobiasahlin.com/blog/css-trick-animating-link-underlines/ which I applied to the hover on links._
