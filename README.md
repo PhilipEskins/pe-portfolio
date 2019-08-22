@@ -6,6 +6,8 @@
 
 ## Description
 
+Live version can be viewed here: https://www.philipeskins.com/#/
+
 _This is a portfolio website to showcase my projects, skills, and other information about me._
 
 ## Current Features
@@ -22,7 +24,7 @@ _This is a portfolio website to showcase my projects, skills, and other informat
 ## Process
 
 #### 8/21/19
-_Was able to get the hamburger menu to work properly thanks to https://www.w3schools.com/howto/howto_js_topnav_responsive.asp tutorial. Started working on redesigning the project component._
+_Was able to get the hamburger menu to work properly thanks to https://www.w3schools.com/howto/howto_js_topnav_responsive.asp tutorial. Completed redesign for project component._
 
 #### 8/20/19
 _Got the form to work, started working on a mobile friendly navbar._

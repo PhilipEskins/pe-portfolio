@@ -6,9 +6,9 @@ function experiences() {
   return(
     <div id="experiencesComponent" className="lozad" data-background-image={waterfall}>
       <hr id="experiences" />
-      <h2 className="header"><span className="background">Experiences</span></h2>
 
       <div className="experiencesContainer">
+        <h2 className="header"><span className="background">Experiences</span></h2>
         <div className="rfpio background">
           <h3>RFPIO Inc.</h3>
           <p>Beaverton, OR | Front End Developer Intern</p>
