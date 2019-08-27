@@ -15,6 +15,7 @@
   border-radius: 15px;
   max-width: 800px;
   margin: auto;
+  padding-bottom: 20px;
   .header {
     color: white;
     font-size: 3em;
@@ -25,20 +26,15 @@
   }
 }
 
-.rfpio {
+.experiencePanel {
+  background-color: #aac6d9;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.epicodus {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.jacobs {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  li {
+    margin: 10px;
+  }
 }

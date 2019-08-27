@@ -89,7 +89,7 @@
 }
 
 .topPanel {
-  height: 550px;
+  padding-bottom: 20px;
   display: grid;
   justify-content: center;
   img {
@@ -111,10 +111,10 @@
 .bottomPanel {
   display: grid;
   align-items: center;
+  text-align: center;
   background-color: #AAC6D9;
   padding: 10px 20px;
   color: black;
-  height: 60px;
   p {
     margin: 0;
   }
