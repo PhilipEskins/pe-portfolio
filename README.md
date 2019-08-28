@@ -14,6 +14,7 @@ _This is a portfolio website to showcase my projects, skills, and other informat
 * Scroll effect when you click on a Link
 * Carousel of 4 projects you can scroll through
 * Printable version of resume
+* Contact form
 
 ## Future Features
 * Optimize mobile view
@@ -22,6 +23,12 @@ _This is a portfolio website to showcase my projects, skills, and other informat
 * Implement Udemy API
 
 ## Process
+
+#### 8/28/19
+_Finished contact and resume component._
+
+#### 8/27/19
+_Finished experiences component and some minor fixes._
 
 #### 8/21/19
 _Was able to get the hamburger menu to work properly thanks to https://www.w3schools.com/howto/howto_js_topnav_responsive.asp tutorial. Completed redesign for project component._

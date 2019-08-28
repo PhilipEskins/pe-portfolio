@@ -6,6 +6,7 @@ function resume() {
   return(
     <div>
       <hr id="resume" />
+      <div className="resumeContainer">
       <h2 className="header" id="resumeHeader">Resume</h2>
         <iframe className="lozad" data-src={public_resume} title="Philip's Resume">
           <p>Your browser does not support PDFs.
@@ -15,6 +16,7 @@ function resume() {
         <div id="resumeDownload">
           <p>This is a test</p>
         </div>
+      </div>
     </div>
   )
 };
