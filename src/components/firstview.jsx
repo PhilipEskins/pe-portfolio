@@ -15,7 +15,7 @@ function firstview(props) {
             <a href="https://github.com/PhilipEskins" target="_blank" rel="noopener noreferrer"><i className="fab fa-github logo"></i></a>
             <div className="pointer" onClick={() => props.onScroll('projects')}>
               <p className="link--white">See more</p>
-              <img src={arrows} />
+              <img src={arrows} alt="Scroll down"/>
             </div>
             <a href="https://www.linkedin.com/in/philipeskins/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin logo"></i></a>
           </div>

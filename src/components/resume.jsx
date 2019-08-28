@@ -9,12 +9,16 @@ function resume() {
       <div className="resumeContainer">
       <h2 className="header" id="resumeHeader">Resume</h2>
         <iframe className="lozad" data-src={public_resume} title="Philip's Resume">
-          <p>Your browser does not support PDFs.
-            <a href={public_resume}>Download the PDF</a>.
-          </p>
+          <p>Click the button below to download my resume</p>
+          <form method="GET" action={public_resume}>
+            <button type="submit">Resume</button>
+          </form>
         </iframe>
         <div id="resumeDownload">
-          <p>Download my resume <a href={public_resume}>here</a></p>
+          <p>Click the button below to download my resume</p>
+          <form method="GET" action={public_resume}>
+            <button type="submit">Resume</button>
+          </form>
         </div>
       </div>
     </div>

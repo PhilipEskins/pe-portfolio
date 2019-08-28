@@ -104,8 +104,8 @@ function projects() {
           </div>
         </div>
 
-        <img className="prev" onClick={() => {plusSlides(-1)}} src={arrows} />
-        <img className="next" onClick={() => {plusSlides(1)}} src={arrows} />
+        <img className="prev" onClick={() => {plusSlides(-1)}} src={arrows} alt="previous" />
+        <img className="next" onClick={() => {plusSlides(1)}} src={arrows} alt="next"/>
         <br />
       </div>
     </div>

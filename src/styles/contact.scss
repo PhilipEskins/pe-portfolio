@@ -4,9 +4,6 @@
 
 #contactComponent {
   .header {
-    color: white;
-    font-size: 3em;
-    border-bottom: 5px solid white;
     padding: 0px 50px;
     width: 40%;
     margin: 100px auto 40px auto;
@@ -14,7 +11,7 @@
 }
 
 .formContainer {
-  max-width: 60%;
+  max-width: 1000px;
   margin: auto;
   color: white;
   border-radius: 15px;
@@ -22,7 +19,6 @@
 
 .form {
   display: grid;
-  // grid-template: 1fr 1fr 1fr/1fr 1fr;
   max-width: 50%;
   margin: auto;
   grid-gap: 20px;
@@ -34,7 +30,6 @@
     height: 50px;
     font-size: 1em;
     background-color: #AAC6D9;
-    border: red;
     cursor: pointer;
     border-radius: 80px;
   }
@@ -77,4 +72,33 @@
   grid-row: 3;
   align-self: center;
   justify-self: center;
+}
+
+@media only screen and (max-width: 650px) {
+  #contactComponent {
+    .header {
+      padding: 0px 0px;
+      width: 80%;
+      margin: 100px auto 40px auto;
+    }
+  }
+
+  .form {
+    max-width: 80%;
+  }
+
+  .email {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .message {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .submit {
+    grid-column: 1;
+    grid-row: 4;
+  }
 }
