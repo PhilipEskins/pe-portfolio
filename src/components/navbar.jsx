@@ -17,7 +17,7 @@ function navbar(props) {
   return (
     <div id="navbar">
       <div className="imageContainer">
-        <img src={logo} alt="Logo"/>
+        <img src={logo} alt="Logo" className="link" onClick={() => props.onScroll('projects')}/>
         <div className="logoContainer">
           <a href="https://github.com/PhilipEskins" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
           <a href="https://www.linkedin.com/in/philipeskins/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>

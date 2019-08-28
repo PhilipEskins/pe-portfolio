@@ -34,6 +34,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  h3 {
+    margin-bottom: 0px;
+  }
+  p {
+    margin: 0px;
+  }
   li {
     margin: 10px;
   }

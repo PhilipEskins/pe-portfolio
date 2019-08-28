@@ -14,9 +14,7 @@
 }
 
 .formContainer {
-  background-color: #7CB4C1;
   max-width: 60%;
-  padding: 50px 0px;
   margin: auto;
   color: white;
   border-radius: 15px;
@@ -50,6 +48,7 @@
   grid-column: 1;
   grid-row: 1;
   input {
+    margin-top: 10px;
     width: 100%;
   }
 }
@@ -58,6 +57,7 @@
   grid-column: 2;
   grid-row: 1;
   input {
+    margin-top: 10px;
     width: 100%;
   }
 }
@@ -66,6 +66,7 @@
   grid-column: 1/ span 2;
   grid-row: 2;
   textarea {
+    margin-top: 10px;
     width: 100%;
     resize: none;
   }

@@ -17,6 +17,16 @@
   }
 }
 
+.dots {
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0px 15px;
+}
+
 .logo {
   font-size: 50px;
   margin: 0px 15px;
@@ -34,7 +44,10 @@
 .frontend {
   font-size: 36px;
   border-top: 5px solid white;
-  padding-top: 10px;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .content {

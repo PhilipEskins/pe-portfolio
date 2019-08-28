@@ -9,7 +9,7 @@ function firstview(props) {
     <div id="firstview" className="lozad" data-background-image={glacier}>
       <div className="box">
         <div className="content">
-          <h1>Philip Eskins</h1><span className="frontend">FRONT END DEVELOPER</span>
+          <h1>PHILIP ESKINS</h1><span className="frontend"><div className="dots"></div> FRONT END DEVELOPER <div className="dots"></div></span>
           <p>Thank you for visiting my website. I'm a Front End Developer open to new opportunities. On this site you'll be able to see some of my <span className="link--white" onClick={() => props.onScroll('projects')}>projects</span>, <span className="link--white" onClick={() => props.onScroll('experiences')}>experiences</span>, and find a printable version of my <span className="link--white" onClick={() => props.onScroll('resume')}>resume</span>. Feel free to <span className="link--white" onClick={() => props.onScroll('contact')}>contact me</span> if you think I'd be a good fit with a project you have.</p>
           <div className="logoContainer">
             <a href="https://github.com/PhilipEskins" target="_blank" rel="noopener noreferrer"><i className="fab fa-github logo"></i></a>
