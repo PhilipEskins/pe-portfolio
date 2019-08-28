@@ -1,17 +1,20 @@
 # _Philip Eskins' Portfolio_
 
-#### _Site to show off my skills and projects
+#### _Site to show off my skills and projects_
 
 #### By _**Philip Eskins**_
 
 ## Description
 
+Live version can be viewed here: https://www.philipeskins.com/#/
+
 _This is a portfolio website to showcase my projects, skills, and other information about me._
 
 ## Current Features
 * Scroll effect when you click on a Link
-* Carousel of 4 projects you can navigate through
+* Carousel of 4 projects you can scroll through
 * Printable version of resume
+* Contact form
 
 ## Future Features
 * Optimize mobile view
@@ -20,6 +23,15 @@ _This is a portfolio website to showcase my projects, skills, and other informat
 * Implement Udemy API
 
 ## Process
+
+#### 8/28/19
+_Finished contact and resume component._
+
+#### 8/27/19
+_Finished experiences component and some minor fixes._
+
+#### 8/21/19
+_Was able to get the hamburger menu to work properly thanks to https://www.w3schools.com/howto/howto_js_topnav_responsive.asp tutorial. Completed redesign for project component._
 
 #### 8/20/19
 _Got the form to work, started working on a mobile friendly navbar._

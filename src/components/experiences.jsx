@@ -6,10 +6,10 @@ function experiences() {
   return(
     <div id="experiencesComponent" className="lozad" data-background-image={waterfall}>
       <hr id="experiences" />
-      <h2 className="header"><span className="background">Experiences</span></h2>
 
       <div className="experiencesContainer">
-        <div className="rfpio background">
+        <h2 className="header"><span>Experiences</span></h2>
+        <div className="experiencePanel">
           <h3>RFPIO Inc.</h3>
           <p>Beaverton, OR | Front End Developer Intern</p>
           <ul>
@@ -20,7 +20,7 @@ function experiences() {
           </ul>
         </div>
 
-        <div className="epicodus background">
+        <div className="experiencePanel">
           <h3>Epicodus</h3>
           <p>Portland, OR | Front End Developer Student</p>
           <ul>
@@ -31,7 +31,7 @@ function experiences() {
           </ul>
         </div>
 
-        <div className="jacobs background">
+        <div className="experiencePanel">
           <h3>Jacobs Heating & Air Conditioning</h3>
           <p>Milwaukie, OR | Dispatcher </p>
           <ul>

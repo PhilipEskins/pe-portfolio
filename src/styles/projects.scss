@@ -1,10 +1,24 @@
-$size: 35px;
+#projectsComponent {
+  background-color: #41575d;
+  .header {
+    color: white;
+    font-size: 3em;
+    border-bottom: 5px solid white;
+    padding: 0px 50px;
+    width: 40%;
+    margin: 100px auto 40px auto;
+  }
+}
+
+#projects {
+  border-color: rgba(65,87,93,0);
+}
 
 #projectArea {
   display: grid;
-  grid-template: 15px 1fr/1fr 1fr 1fr;
-  margin-bottom: 100px;
+  grid-template: 15px 1fr/1fr 2fr 1fr;
   grid-row-gap: 10px;
+  color: white;
 }
 
 .center {
@@ -12,22 +26,14 @@ $size: 35px;
   align-self: center;
 }
 
-.mySlides {
-  display: none;
-}
-
 .prev, .next {
   cursor: pointer;
-  width: 16px;
+  width: 50px;
   padding: 16px;
   color: white;
-  border-bottom-color: lightgray;
-  background-color: lightgray;
-  font-weight: bold;
-  font-size: 18px;
+  border-color: #41575d;
+  background-color: #41575d;
   transition: 0.6s ease;
-  // border-radius: 0 3px 3px 0;
-  user-select: none;
   align-self: center;
 }
 
@@ -35,6 +41,7 @@ $size: 35px;
   grid-row: 2;
   grid-column: 1;
   justify-self: end;
+  transform: rotate(-90deg);
 }
 
 .next {
@@ -42,6 +49,7 @@ $size: 35px;
   grid-column: 3;
   margin-right: 18px;
   border-radius: 3px 0 0 3px;
+  transform: rotate(90deg);
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -60,143 +68,54 @@ $size: 35px;
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: white;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
+.active {
+  background-color: #AB451E;
+}
+
+.dot:hover {
+  background-color: #7cb4c1;
+}
+
+.mySlides {
+  display: none;
+  background-color: #7CB4C1;
+  grid-column: 2;
 }
 
 .topPanel {
+  padding-bottom: 20px;
   display: grid;
-  grid-template: 1fr 1fr 1fr 1fr 35px / 1fr;
   justify-content: center;
   img {
-    width: 100%;
+    width: 90%;
+    margin: 20px auto;
   }
   h3 {
     margin: auto;
-    text-decoration: underline;
   }
   p {
     margin: 10px 20px;
+    text-align: center;
   }
-  .cutout {
-    height: $size;
-    width: $size * 2;
-    margin: 0 1em 1em 0;
-    justify-self: center;
-    background-color: lightgray;
-    border-top-left-radius: $size * 2;
-    border-top-right-radius: $size * 2;
+  a {
+    color: white;
   }
 }
+
 .bottomPanel {
-  height: 100px;
-  align-self: end;
-  z-index: -1;
-}
-
-#first {
-  grid-column: 2;
-  grid-row: 2;
   display: grid;
-  grid-template: 80vh/1fr;
-  max-width: 500px;
-  margin: 0px auto;
-  .topPanel {
-    grid-row: 1;
-    grid-column: 1;
-    background-color: #b0b0b0;
+  align-items: center;
+  text-align: center;
+  background-color: #AAC6D9;
+  padding: 10px 20px;
+  color: black;
+  p {
+    margin: 0;
   }
-  .bottomPanel {
-    grid-row: 1;
-    grid-column: 1;
-  }
-  .topPanel:hover ~ .bottomPanel {
-    border: black solid 1px;
-    animation-name: hoverdrop;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-  }
-}
-
-#second {
-  grid-column: 2;
-  grid-row: 2;
-  display: grid;
-  grid-template: 80vh/1fr;
-  max-width: 500px;
-  margin: 0px auto;
-  .topPanel {
-    grid-row: 1;
-    grid-column: 1;
-    background-color: #b0b0b0;
-  }
-  .bottomPanel {
-    grid-row: 1;
-    grid-column: 1;
-  }
-  .topPanel:hover ~ .bottomPanel {
-    border: black solid 1px;
-    animation-name: hoverdrop;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-  }
-}
-
-#third {
-  grid-column: 2;
-  grid-row: 2;
-  display: grid;
-  grid-template: 80vh/1fr;
-  max-width: 500px;
-  margin: 0px auto;
-  .topPanel {
-    grid-row: 1;
-    grid-column: 1;
-    background-color: #b0b0b0;
-  }
-  .bottomPanel {
-    grid-row: 1;
-    grid-column: 1;
-  }
-  .topPanel:hover ~ .bottomPanel {
-    border: black solid 1px;
-    animation-name: hoverdrop;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-  }
-}
-
-#fourth {
-  grid-column: 2;
-  grid-row: 2;
-  display: grid;
-  grid-template: 80vh/1fr;
-  max-width: 500px;
-  margin: 0px auto;
-  .topPanel {
-    grid-row: 1;
-    grid-column: 1;
-    background-color: #b0b0b0;
-  }
-  .bottomPanel {
-    grid-row: 1;
-    grid-column: 1;
-  }
-  .topPanel:hover ~ .bottomPanel {
-    border: black solid 1px;
-    animation-name: hoverdrop;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-  }
-}
-
-@keyframes hoverdrop {
-  0% {transform: translate(0px,0px) }
-  100% {transform: translate(0px,100px) }
 }
