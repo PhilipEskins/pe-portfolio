@@ -44,3 +44,13 @@
     margin: 10px;
   }
 }
+
+@media only screen and (max-width: 650px) {
+  .experiencesContainer {
+    .header {
+      padding: 0px 0px;
+      width: 80%;
+      margin: 100px auto 40px auto;
+    }
+  }
+}

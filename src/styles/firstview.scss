@@ -28,7 +28,7 @@
 }
 
 .logo {
-  font-size: 50px;
+  font-size: 5vw;
   margin: 0px 15px;
   color: white;
 }
@@ -42,7 +42,7 @@
 }
 
 .frontend {
-  font-size: 36px;
+  font-size: 2em;
   border-top: 5px solid white;
   padding: 10px 0px;
   display: flex;
@@ -93,5 +93,12 @@
     p {
       font-size: 2vw;
     }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .dots {
+    height: 5px;
+    width: 5px;
   }
 }

@@ -92,3 +92,24 @@
   }
 
 }
+
+@media only screen and (max-width: 500px) {
+  #navbar {
+    padding: 0px;
+    img {
+      height: 60px;
+      align-self: center;
+    }
+    .hamburgerMenu {
+      padding-right: 25px;
+    }
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #navbar {
+    .logoContainer {
+      display: none;
+    }
+  }
+}

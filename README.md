@@ -24,8 +24,11 @@ _This is a portfolio website to showcase my projects, skills, and other informat
 
 ## Process
 
+#### 8/29/19
+_More work on optimizing the mobile view._
+
 #### 8/28/19
-_Finished contact and resume component._
+_Finished contact and resume component. Started working on optimizing the mobile view._
 
 #### 8/27/19
 _Finished experiences component and some minor fixes._
