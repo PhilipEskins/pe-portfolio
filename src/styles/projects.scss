@@ -19,6 +19,7 @@
   grid-template: 15px 1fr/1fr 2fr 1fr;
   grid-row-gap: 10px;
   color: white;
+  padding-bottom: 50px;
 }
 
 .center {
@@ -67,7 +68,7 @@
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 2px;
+  margin: 0 10px;
   background-color: white;
   border-radius: 50%;
   display: inline-block;
@@ -86,6 +87,7 @@
   display: none;
   background-color: #7CB4C1;
   grid-column: 2;
+  grid-row: 2;
 }
 
 .topPanel {
@@ -117,5 +119,53 @@
   color: black;
   p {
     margin: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  #projectArea {
+    grid-template: 15px 1fr auto / 1fr 1fr;
+  }
+
+  #projectsComponent {
+    .header {
+      padding: 0px 0px;
+      width: 80%;
+      margin: 100px auto 40px auto;
+    }
+  }
+
+  .dotContainer {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+  }
+
+  .dot {
+    margin: 0px 15px;
+  }
+
+  .prev, .next {
+    width: 25px;
+    background-color: rgba(0,0,0,0)
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0);
+  }
+
+  .prev {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .next {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  .mySlides {
+    grid-row: 2;
+    grid-column: 1 / span 2;
   }
 }
